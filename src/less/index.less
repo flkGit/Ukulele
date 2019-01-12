@@ -1,1 +1,42 @@
-index.less
+/**
+ *  变量定义
+ */
+@mcolor: #C84D42; //主色调
+@hbcolor: #37B2BD; // 互补色
+@lmcolor: #D65247; // 亮主色
+@amcolor: #963A32; // 暗主色
+@borderColor: #f1f1f1;
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: .4rem;
+	font-weight: normal;
+	text-align: center;
+	height: .9rem;
+	background-color: @mcolor;
+	color: #fff;
+	line-height: .9rem;
+}
+
+.music{
+	padding: .2rem;
+	text-align: center;
+	border-bottom: 1px solid @borderColor;
+	h2{
+		color: @hbcolor;
+		font-size: .32rem;
+		text-align: center;
+		margin-bottom: .2rem;
+	}
+}
+
+footer{
+	text-align: center;
+	color: #999;
+	font-size: .28rem;
+	padding: .3rem 0;
+}
